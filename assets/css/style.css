@@ -14,7 +14,7 @@ header nav a {
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
+    background-color: grey;
     color: #ffffff;
 }
 
@@ -33,7 +33,7 @@ header h1 {
 }
 
 aside {
-    background-color: aqua;
+    background-color: grey;
     float: left;
     margin: 25px;
     }
@@ -49,6 +49,15 @@ main {
     border: 1px solid black;
     width: 100%;
 }
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+    height: 400px;
+    width: 30%;
+}
+
+
 
 
 .footer {
