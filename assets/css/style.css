@@ -13,18 +13,18 @@ header nav {
 
 header nav a {
     margin-left: 25px;
-    color: yellow
+    color: var(--primary-color);
 }
 
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: grey;
-    color: #ffffff;
-}
+   }
 
 header h1 {
     font-size: 48px;
+    color: var(--primary-color);
 }
 
 .hero {
@@ -56,6 +56,7 @@ main {
 p {
     font-size: 16px;
     margin-inline: 10%;
+    color: var(--primary-color);
 }
 
 .run-buddy {
@@ -88,6 +89,7 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
     header {
@@ -107,4 +109,9 @@ p {
     header {
       font-size: 100px;
     }
+  }
+
+  /* Add CSS variable for primary color */
+  :root {
+      --primary-color: purple;
   }
