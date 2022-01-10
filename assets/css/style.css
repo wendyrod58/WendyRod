@@ -71,13 +71,20 @@ p {
     margin-left: 25px;
     height: 200px;
     width: 20%;
+    }
+
+/* mouse is hovering over work */
+h2:hover {
+    background: red;
+  }
+
+.hero:hover {
+    background: no-repeat;
 }
 
-.refactor :hover {
-    background-color: blue;
-    flex-grow: 20%;
+.refactor:hover {
+    background: blue;
 }
-
 
 .footer {
     padding: 30px;
@@ -86,7 +93,7 @@ p {
     text-align: center;
 }
 
-.footer h2 {
+.footer h3 {
     font-size: 20px;
 }
 
