@@ -60,31 +60,34 @@ p {
 }
 
 .run-buddy {
-    float: right;
     margin-left: 25px;
     height: 200px;
     width: 20%;
 }
 
 .refactor {
-    float: right;
     margin-left: 25px;
     height: 200px;
     width: 20%;
     }
 
-/* mouse is hovering over work */
-h2:hover {
-    background: red;
+/* mouse is hovering */
+div:hover {
+    background: grey;
   }
 
 .hero:hover {
     background: no-repeat;
 }
 
-.refactor:hover {
-    background: blue;
+.refactor {
+    flex-grow: 2;
 }
+
+.run-buddy {
+    flex-grow: 1;
+}
+
 
 .footer {
     padding: 30px;
