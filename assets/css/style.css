@@ -1,14 +1,19 @@
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
 header nav {
     padding-top: 15px;
     margin-right: 20px;
-    float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    color: azure;
 }
 
 header nav a {
-    display: inline-block;
     margin-left: 25px;
+    color: yellow
 }
 
 header {
@@ -19,7 +24,6 @@ header {
 }
 
 header h1 {
-    display: inline-block;
     font-size: 48px;
 }
 
